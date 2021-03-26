@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cserwen的站点</title>
+    <style type="text/css" >
+        #apps {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 200px;
+            height: 100px;
+        }
+
+        .icon {
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .app {
+            text-align: center;
+        }
+
+        .item {
+            margin: 0 10px;
+        }
+
+        .app a{
+            text-decoration: none;
+            color: burlywood;
+        }
+
+        .app a:hover{
+            text-decoration: underline;
+        }
+
+        .link {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .link:hover {
+            color: #ff9900;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: absolute; top: calc(50% - 100px); left: calc(50% - 100px);">
+        <div id="apps">
+            <div class="item">
+                <div style="text-align: center;">
+                    <img src="./icons/blog.jpeg" class="icon" />
+                </div>
+                <div class="app">
+                    <a href="https://blog.litterboys.xyz" target="_blank">博客</a>
+                </div>
+            </div>
+            <div class="item">
+                <div style="text-align: center;">
+                    <img src="./icons/git.png" class="icon" />
+                </div>
+                <div class="app">
+                    <a href="https://git.litterboys.xyz" target="_blank">
+                        Git
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div style="text-align: center;">
+                    <img src="./icons/back.png" class="icon" />
+                </div>
+                <div class="app">
+                    <a href="https://mis.litterboys.xyz" target="_blank">
+                        后台
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div style="text-align: center;">
+                    <img src="./icons/GitHub.png" class="icon" />
+                </div>
+                <div class="app">
+                    <a href="https://github.com/cserwen" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div style="text-align: center;">
+                    <img src="./icons/bilibili.png" class="icon" />
+                </div>
+                <div class="app">
+                    <a href="https://space.bilibili.com/258391501/" target="_blank">
+                        BiliBili
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="position: absolute; bottom: 30px; left: calc(50% - 290px);">
+        <div style="width: 600px; text-align: center; color: grey;">
+            <span>Copyrights © 2019-2021 litterboys</span>
+            <a href="https://beian.miit.gov.cn/#/Integrated/index" class="link" target="_blank">冀ICP备20003509号</a>
+        </div>
+    </div>
+</body>
+</html>
